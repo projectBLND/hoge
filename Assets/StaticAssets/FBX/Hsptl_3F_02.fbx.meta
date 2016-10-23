@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 707f10220324c4ab8956bcfba2ec58e1
+timeCreated: 1468772406
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CINEMA_4D_Editor
+    100002: //RootNode
+    100004: "\u304A\u98A8\u5442"
+    100006: "\u304A\u98A8\u5442_\u5165\u308C\u308B"
+    100008: "\u30A8\u30EC\u30D9\u30FC\u30BF\u30FC"
+    100010: "\u30CC\u30EB"
+    100012: "\u4F11\u61A9\u8CEA"
+    100014: "\u58C1"
+    100016: "\u58C1_2"
+    100018: "\u58C1_3"
+    100020: "\u5916"
+    100022: "\u6905\u5B50_01_2"
+    100024: "\u75C5\u5BA4"
+    100026: "\u7ACB\u65B9\u4F53"
+    100028: "\u7ACB\u65B9\u4F53_1"
+    100030: "\u7ACB\u65B9\u4F53_1_2"
+    100032: "\u7ACB\u65B9\u4F53_1_3"
+    100034: "\u7ACB\u65B9\u4F53_1_4"
+    100036: "\u8A3A\u5BDF_01_1"
+    100038: "\u8A3A\u5BDF_01_1_2"
+    100040: "\u90E8\u5C4B"
+    100042: "\u968E\u6BB5"
+    400000: CINEMA_4D_Editor
+    400002: //RootNode
+    400004: "\u304A\u98A8\u5442"
+    400006: "\u304A\u98A8\u5442_\u5165\u308C\u308B"
+    400008: "\u30A8\u30EC\u30D9\u30FC\u30BF\u30FC"
+    400010: "\u30CC\u30EB"
+    400012: "\u4F11\u61A9\u8CEA"
+    400014: "\u58C1"
+    400016: "\u58C1_2"
+    400018: "\u58C1_3"
+    400020: "\u5916"
+    400022: "\u6905\u5B50_01_2"
+    400024: "\u75C5\u5BA4"
+    400026: "\u7ACB\u65B9\u4F53"
+    400028: "\u7ACB\u65B9\u4F53_1"
+    400030: "\u7ACB\u65B9\u4F53_1_2"
+    400032: "\u7ACB\u65B9\u4F53_1_3"
+    400034: "\u7ACB\u65B9\u4F53_1_4"
+    400036: "\u8A3A\u5BDF_01_1"
+    400038: "\u8A3A\u5BDF_01_1_2"
+    400040: "\u90E8\u5C4B"
+    400042: "\u968E\u6BB5"
+    2300000: "\u58C1"
+    2300002: "\u6905\u5B50_01_2"
+    2300004: "\u7ACB\u65B9\u4F53"
+    2300006: "\u7ACB\u65B9\u4F53_1"
+    2300008: "\u7ACB\u65B9\u4F53_1_2"
+    2300010: "\u7ACB\u65B9\u4F53_1_3"
+    2300012: "\u7ACB\u65B9\u4F53_1_4"
+    2300014: "\u8A3A\u5BDF_01_1"
+    2300016: "\u8A3A\u5BDF_01_1_2"
+    3300000: "\u58C1"
+    3300002: "\u6905\u5B50_01_2"
+    3300004: "\u7ACB\u65B9\u4F53"
+    3300006: "\u7ACB\u65B9\u4F53_1"
+    3300008: "\u7ACB\u65B9\u4F53_1_2"
+    3300010: "\u7ACB\u65B9\u4F53_1_3"
+    3300012: "\u7ACB\u65B9\u4F53_1_4"
+    3300014: "\u8A3A\u5BDF_01_1"
+    3300016: "\u8A3A\u5BDF_01_1_2"
+    4300000: "\u7ACB\u65B9\u4F53_1"
+    4300002: "\u7ACB\u65B9\u4F53_1_2"
+    4300004: "\u58C1"
+    4300006: "\u8A3A\u5BDF_01_1"
+    4300008: "\u8A3A\u5BDF_01_1_2"
+    4300010: "\u7ACB\u65B9\u4F53_1_3"
+    4300012: "\u7ACB\u65B9\u4F53"
+    4300014: "\u7ACB\u65B9\u4F53_1_4"
+    4300016: "\u6905\u5B50_01_2"
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
