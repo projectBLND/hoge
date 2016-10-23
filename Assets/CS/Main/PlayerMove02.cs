@@ -7,6 +7,8 @@ public class PlayerMove02 : MonoBehaviour {
 	private Vector3 _lastMousePos;
 	private float spd = 0.02f;
 
+	public GameObject head;
+
 	// Use this for initialization
 	void Start(){
 			Debug.Log("Hello World");
@@ -30,7 +32,7 @@ public class PlayerMove02 : MonoBehaviour {
 				}else{
 						spd = 0.005f;
 				}
-				Vector3 vectorForward = transform.forward;
+				Vector3 vectorForward = head.transform.forward;
 				vectorForward.y = 0.0f;
 				transform.position += vectorForward * spd;
 
