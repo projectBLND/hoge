@@ -46,7 +46,23 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\UnityKeyRemapEditor.cs" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+     <None Include="Assets\StaticAssets\UnityChan\license.txt" />
      <None Include="Assets\CS\Main\Memo.txt" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+     <None Include="Assets\StaticAssets\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_AdditiveZ.shader" />
+     <None Include="Assets\StaticAssets\JMO Assets\!JMO Assets Readme.txt" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+     <None Include="Assets\StaticAssets\UnityChan\Stage\Shader\AlphaMask.shader" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+     <None Include="Assets\StaticAssets\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_Additive.shader" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+     <None Include="Assets\StaticAssets\JMO Assets\MatCap Shaders\_MatCap Shaders Readme.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -82,6 +98,12 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="JMOAssets_MatCapWelcome">
+ <HintPath>/Users/211q036/game_creations/Blind/Blind01/Assets/StaticAssets/JMO Assets/Editor/JMOAssets_MatCapWelcome.dll</HintPath>
+ </Reference>
+ <Reference Include="JMOAssets">
+ <HintPath>/Users/211q036/game_creations/Blind/Blind01/Assets/StaticAssets/JMO Assets/Editor/JMOAssets.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

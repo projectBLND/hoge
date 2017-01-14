@@ -38,14 +38,16 @@ public class PlayerMove02 : MonoBehaviour {
 				}
 				Vector3 vectorForward = head.transform.forward;
 				//vectorForward.y = 0.0f;
-				vel += vectorForward * spd;
+				vel = vectorForward * spd;
 
 
-    }
+    }else{
+			vel = Vector3.zero;
+		}
 
 		// 落下
 		vel += Vector3.down * -Physics.gravity.y * Time.fixedDeltaTime;
-		cCon.Move(vel * Time.fixedDeltaTime);
+		cCon.Move(vel);
 
 		// 着地していたら速度を0にする
 		if (cCon.isGrounded) {

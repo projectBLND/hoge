@@ -46,12 +46,35 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\CS\GameManager.cs" />
-     <Compile Include="Assets\CS\Main\CameraController.cs" />
      <Compile Include="Assets\CS\Main\PlayerMove.cs" />
      <Compile Include="Assets\CS\Main\PlayerMove02.cs" />
      <Compile Include="Assets\CS\Main\SceneViewCamera.cs" />
      <Compile Include="Assets\CS\Main\TestScript01.cs" />
+     <Compile Include="Assets\StaticAssets\JMO Assets\MatCap Shaders\Demo\Assets\MC_AutoRotate.cs" />
+     <Compile Include="Assets\StaticAssets\JMO Assets\MatCap Shaders\Demo\Assets\MC_SwitchTexture.cs" />
+     <Compile Include="Assets\StaticAssets\UnityChan\Scripts\CameraController.cs" />
+     <Compile Include="Assets\StaticAssets\UnityChan\Scripts\FaceUpdate.cs" />
+     <Compile Include="Assets\StaticAssets\UnityChan\Scripts\IdleChanger.cs" />
+     <Compile Include="Assets\StaticAssets\UnityChan\Scripts\SceneLoader.cs" />
+     <Compile Include="Assets\StaticAssets\UnityChan\Scripts\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\StaticAssets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+     <None Include="Assets\StaticAssets\UnityChan\license.txt" />
      <None Include="Assets\CS\Main\Memo.txt" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+     <None Include="Assets\StaticAssets\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_AdditiveZ.shader" />
+     <None Include="Assets\StaticAssets\JMO Assets\!JMO Assets Readme.txt" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+     <None Include="Assets\StaticAssets\UnityChan\Stage\Shader\AlphaMask.shader" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+     <None Include="Assets\StaticAssets\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_Additive.shader" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
+     <None Include="Assets\StaticAssets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+     <None Include="Assets\StaticAssets\JMO Assets\MatCap Shaders\_MatCap Shaders Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
