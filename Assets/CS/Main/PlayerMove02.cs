@@ -8,10 +8,13 @@ public class PlayerMove02 : MonoBehaviour {
 	private float spd = 0.02f;
 
 	public GameObject head;
+	private CharacterController cCon;
+	private Vector3 vel = Vector3.zero;
 
 	// Use this for initialization
 	void Start(){
 			Debug.Log("Hello World");
+			cCon = GetComponent<CharacterController>();
 	}
 
 	// Update is called once per frame
@@ -29,14 +32,25 @@ public class PlayerMove02 : MonoBehaviour {
 
 				if(Mathf.Abs(gapXY) < 0.01f){ //<- マウス移動の許容値 この数値は適宜変更する
 						spd = 0.02f;
+
 				}else{
 						spd = 0.005f;
 				}
 				Vector3 vectorForward = head.transform.forward;
-				vectorForward.y = 0.0f;
-				transform.position += vectorForward * spd;
+				//vectorForward.y = 0.0f;
+				vel += vectorForward * spd;
+
 
     }
+
+		// 落下
+		vel += Vector3.down * -Physics.gravity.y * Time.fixedDeltaTime;
+		cCon.Move(vel * Time.fixedDeltaTime);
+
+		// 着地していたら速度を0にする
+		if (cCon.isGrounded) {
+				vel.y = 0;
+		}
 
 		//1フレーム前の情報を取得
 		_lastMousePos = Input.mousePosition;

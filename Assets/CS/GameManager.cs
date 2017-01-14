@@ -3,7 +3,7 @@ using System.Collections;
 
 public class GameManager : MonoBehaviour {
 
-	public static int angleOfUi = -45;
+	public static int angleOfUi = 0; //カメラの傾き
 
 	// Use this for initialization
 	void Start () {
